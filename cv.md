@@ -2,7 +2,7 @@
 
 # Anastasiya S.
 
-![kitty](/img/clown-kitty.jpg "Also me")
+![kitty](./img/clown-kitty.jpg "Also me")
 
 ## Contacts
 * **Location:** Minsk, Belarus
