@@ -219,7 +219,7 @@ hr{
 }
 
 .kitty-back{
-    background-image: url(/images/kitty.png);
+    background-image: url(../images/kitty.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -244,11 +244,11 @@ hr{
 
 
 .skills__item-rating span{
-    content: url(/images/gray.svg);
+    content: url(../images/gray.svg);
 }
 
 .skills__item-rating > span.active{
-    content: url(/images/orange.svg);
+    content: url(../images/orange.svg);
 }
 
 .info{
@@ -286,7 +286,7 @@ hr{
 }
 
 .silly-dance{
-    background-image: url(/images/anime-dancing.gif);
+    background-image: url(../images/anime-dancing.gif);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 25%;
