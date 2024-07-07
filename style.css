@@ -114,3 +114,186 @@ a{
 ul{
     list-style: none;
 }
+
+body{
+    color: #151618;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(
+        180deg,
+        rgba(232, 154, 110, 1) 21%,
+        rgba(255, 183, 116, 1) 66%,
+        rgba(139, 255, 85, 1) 96%
+      );
+      background-blend-mode: soft-light;
+}
+
+.wrapper{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    margin: 0px auto 70px auto;
+}
+
+.container:first-child{
+    margin: 30px auto 70px auto;
+}
+
+.menu{
+    padding-top: 40px;
+    margin-bottom: 75px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__link{
+    text-decoration: underline;
+}
+
+.main__info-inside{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.speciality{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+hr{
+    border: none;
+    background-color: #000;
+    color: #000; 
+    height: 2px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+}
+
+.about-me{
+    margin-top: 45px;
+}
+
+.title{
+    font-size: 30px;
+    line-height: 1;
+}
+
+.title__line{
+    max-width: 460px;
+    margin: 0;
+}
+
+.about-me__text{
+    padding: 15px 0 45px 0;
+}
+
+.info-columns{
+    display: grid;
+    grid-template-columns: repeat(2, 580px);
+    gap: 80px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.kitty-back{
+    background-image: url(/images/kitty.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.skills{
+    display: inline-block;
+}
+
+.skills__list{
+    margin-top: 20px;
+}
+
+.skills__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__item-name{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.skills__item-rating span{
+    content: url(/images/gray.svg);
+}
+
+.skills__item-rating > span.active{
+    content: url(/images/orange.svg);
+}
+
+.info{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-grid{
+    margin-left: 231px;
+}
+
+.projects{
+    max-width: 463px;
+}
+
+.languages{
+    margin-top: 75px;
+}
+
+.projects__inner{
+    margin-top: 24px;
+}
+
+.projects__text{
+    text-align: center;
+}
+
+.education__inner{
+    margin-top: 24px;
+}
+
+.languages__inner{
+    margin-top: 24px;
+}
+
+.silly-dance{
+    background-image: url(/images/anime-dancing.gif);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 25%;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
