@@ -8,6 +8,7 @@
 * **Discord:** @vuejuju 
 * **Email:** skriptonast@gmail.com
 * **Telegram:** @pepparonin
+* **GitHub:** @pepparonin
 ***
 ### About me:
 I'm 20+ years old girl working in Ministry of Labour and Social Protection sphere. So my job is really difficult sometimes. And in future I've planned to change my field of activity. That's why I'm here.
