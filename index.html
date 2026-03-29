@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>RS School CV</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <button id="top-btn" onclick="goTopFunction()">
+        <img src="./img/arrow-up-wh.svg" alt="up" class="top-btn-pic">
+    </button>
+    <div class="container">
+        <div class="wrapper">
+            <header class="header">
+                <nav>
+                    <ul class="header-menu">
+                        <li class="header-menu__item">
+                            <a href="#skills" class="header-menu__item-link">skills</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#code" class="header-menu__item-link">code</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#projects" class="header-menu__item-link">projects</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#education" class="header-menu__item-link">education</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#languages" class="header-menu__item-link">languages</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main">
+                <div class="main-welcome">
+                    <img class="main-welcome-pic" src="./img/ai-pic.png" alt="photo">
+                    <div class="main-welcome__info">
+                        <h1 class="title">Anastasiya S.</h1>
+                        <p class="main-welcome__info-spec">front-end enthusiast</p>
+                        <hr class="horizontal-hr">
+                        <div class="icons">
+                            <ul class="icons-list">
+                                <li class="icons-list__item">
+                                    <a href="https://discord.com/users/vuejuju" class="icons-list__item-link">
+                                        <img src="./img/discord-icon.svg" alt="discord" class="icon">
+                                    </a>
+                                </li>
+                                <li class="icons-list__item">
+                                    <a href="https://github.com/pepparonin" class="icons-list__item-link">
+                                        <img src="./img/github-icon.svg" alt="github" class="icon">
+                                    </a>
+                                </li>
+                                <li class="icons-list__item">
+                                    <a href="https://t.me/pepparonin" class="icons-list__item-link">
+                                        <img src="./img/telegram-icon.svg" alt="telegram" class="icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-me">
+                    <h2 class="about-me__title">About me</h2>
+                    <hr class="horizontal-hr block-hr">
+                    <p class="about-me__text">
+                        I am 24 years old and I am a programmer by education. But during the education in my ✨sharaga✨ I played Dota 2 and BDO.  C++ and Java was a little bit difficult for me and absolutely all lections was too boring to listen. My course projects was made on Python with YouTube tutorials by Indian people. I have a little experience with using React and VueJS but if you don’t have base knowledges in JS, HTML&CSS using web-frameworks is really waste of time. That’s why I’m here to start from absolutely 0. <i>And just for fun!</i>✨
+                    </p>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="second-wrapper">
+                <div class="skills-block" id="skills">
+                    <h2 class="skills-block__title">Skills</h2>
+                    <hr class="horizontal-hr block-hr">
+                    <ul class="skills-list">
+                        <li class="skills-list__item">HTML <span class="orange"></span><span class="orange"></span><span></span><span></span><span></span></li>
+                        <li class="skills-list__item">CSS <span class="orange"></span><span class="orange"></span><span></span><span></span><span></span></li>
+                        <li class="skills-list__item">JavaScript <span class="orange"></span><span></span><span></span><span></span><span></span></li>
+                        <li class="skills-list__item">Git <span class="orange"></span><span class="orange"></span><span></span><span></span><span></span></li>
+                        <li class="skills-list__item">React <span></span><span></span><span></span><span></span><span></span></li>
+                    </ul>
+                </div>
+                <div class="code-example-block" id="code">
+                    <h2 class="code-example-block__title">Code example</h2>
+                    <hr class="horizontal-hr block-hr">
+                    <pre>
+                        <code>
+let hello = "Hello world!";
+console.log(hello);
+                        </code>
+                    </pre>
+                    <img src="/img/silly-kitty.png" alt="kitty" class="code-example-block__pic">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="second-wrapper">
+                <div class="projects-block" id="projects">
+                    <h2 class="projects-block__title">Projects</h2>
+                    <hr class="horizontal-hr block-hr">
+                    <p class="projects-block__text">Projects in progress...</p>
+                    <img src="./img/busy-kitty.png" alt="busy-kitty" class="projects-block__img">
+                </div>
+                <div class="education-languages-block" id="education">
+                    <div class="education-block">
+                        <h2 class="education-block__title">Education</h2>
+                        <hr class="horizontal-hr block-hr">
+                        <p class="education-block__text-years">2019-2023</p>
+                        <p class="education-block__text-univ">Belarussian State Unversity of Informatics and Radioelectronics</p>
+                    </div>
+                    <div class="languages-block" id="languages">
+                        <h2 class="languages-block__title">Languages</h2>
+                        <hr class="horizontal-hr block-hr">
+                        <ul class="languages-block__list">
+                            <li class="languages-block__item"><strong>Russian:</strong> native</li>
+                            <li class="languages-block__item"><strong>English:</strong> B1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-block">
+                <a href="https://github.com/pepparonin" class="footer-github-link">
+                    <img src="./img/github-icon.svg" alt="github" class="footer-github-icon">
+                </a>
+                <p class="footer-text">2026</p>
+                <a href="https://rs.school/courses/javascript-preschool-ru" class="footer-course-link">
+                    <img src="./img/logo-rs.svg" alt="RS School!" class="footer-school-logo"> 
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
