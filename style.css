@@ -223,3 +223,25 @@ span:hover{
 .footer-course-link{
     align-self: center;
 }
+
+#top-btn{
+    padding: 20px 10px;
+    border: none;
+    cursor: pointer;
+    background: #000;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 99;
+    transition: 0.5s;
+    display: none;
+}
+
+#top-btn:hover{
+    background-color: #FE846A;
+}
+
+#top-btn:active{
+    background-color: #8BFF55;
+}
