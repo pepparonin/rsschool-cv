@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ul{
@@ -34,6 +35,8 @@ body{
     align-items: center;
     font-size: 25px;
     padding: 40px 0 0 0;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 li{
@@ -42,6 +45,14 @@ li{
 
 .header-menu__item-link{
     color: #000;
+}
+
+.header-menu__item-link:hover{
+    opacity: 0.5;
+}
+
+.icons-list__item:hover{
+    opacity: 0.5;
 }
 
 .header{
@@ -136,4 +147,79 @@ span:hover{
     width: 559px; 
     height: 400px; 
     z-index: 1;
+}
+
+.projects-block{
+    max-width: 465px;
+}
+
+.projects-block__title{
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+.projects-block__text{
+    text-align: center;
+}
+
+.education-languages-block{
+    max-width: 465px;
+    padding-top: 25px;
+}
+
+.education-block__title{
+    margin-top: 0;
+}
+
+.education-block__text-years{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.education-block__text-univ{
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+
+.languages-block__item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin-top: 65px;
+}
+
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+    max-width: 597px;
+    margin: 0 auto;
+}
+
+.footer-github-icon{
+    width: 120px;
+    height: 120px;
+}
+
+.footer-text{
+    font-size: 50px;
+    
+}
+
+.footer-school-logo{
+    width: 200px;
+    height: 200px;
+}
+
+.footer-school-logo:hover{
+    opacity: 0.5;
+}
+
+.footer-github-icon:hover{
+    opacity: 0.5;
+}
+
+.footer-github-link,
+.footer-course-link{
+    align-self: center;
 }

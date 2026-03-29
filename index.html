@@ -15,26 +15,26 @@
             <header class="header">
                 <nav>
                     <ul class="header-menu">
-                        <li class="header-menu__item">
+                        <!-- <li class="header-menu__item">
                             <a href="#" class="header-menu__item-link">contacts</a>
                         </li>
                         <li class="header-menu__item">
                             <a href="#" class="header-menu__item-link">about me</a>
+                        </li>  -->
+                        <li class="header-menu__item">
+                            <a href="#skills" class="header-menu__item-link">skills</a>
                         </li>
                         <li class="header-menu__item">
-                            <a href="#" class="header-menu__item-link">skills</a>
+                            <a href="#code" class="header-menu__item-link">code</a>
                         </li>
                         <li class="header-menu__item">
-                            <a href="#" class="header-menu__item-link">code</a>
+                            <a href="#projects" class="header-menu__item-link">projects</a>
                         </li>
                         <li class="header-menu__item">
-                            <a href="#" class="header-menu__item-link">projects</a>
+                            <a href="#education" class="header-menu__item-link">education</a>
                         </li>
                         <li class="header-menu__item">
-                            <a href="#" class="header-menu__item-link">education</a>
-                        </li>
-                        <li class="header-menu__item">
-                            <a href="#" class="header-menu__item-link">languages</a>
+                            <a href="#languages" class="header-menu__item-link">languages</a>
                         </li>
                     </ul>
                 </nav>
@@ -44,7 +44,7 @@
                     <img class="main-welcome-pic" src="./img/ai-pic.png" alt="photo">
                     <div class="main-welcome__info">
                         <h1 class="title">Anastasiya S.</h1>
-                        <p class="main-welcome__info-spec">pre-junior front-end developer</p>
+                        <p class="main-welcome__info-spec">front-end enthusiast</p>
                         <hr class="horizontal-hr">
                         <div class="icons">
                             <ul class="icons-list">
@@ -80,7 +80,7 @@
     <div class="container">
         <div class="wrapper">
             <div class="second-wrapper">
-                <div class="skills-block">
+                <div class="skills-block" id="skills">
                     <h2 class="skills-block__title">Skills</h2>
                     <hr class="horizontal-hr block-hr">
                     <ul class="skills-list">
@@ -91,7 +91,7 @@
                         <li class="skills-list__item">React <span></span><span></span><span></span><span></span><span></span></li>
                     </ul>
                 </div>
-                <div class="code-example-block">
+                <div class="code-example-block" id="code">
                     <h2 class="code-example-block__title">Code example</h2>
                     <hr class="horizontal-hr block-hr">
                     <pre>
@@ -105,5 +105,46 @@ console.log(hello);
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="second-wrapper">
+                <div class="projects-block" id="projects">
+                    <h2 class="projects-block__title">Projects</h2>
+                    <hr class="horizontal-hr block-hr">
+                    <p class="projects-block__text">Projects in progress...</p>
+                    <img src="./img/busy-kitty.png" alt="busy-kitty" class="projects-block__img">
+                </div>
+                <div class="education-languages-block" id="education">
+                    <div class="education-block">
+                        <h2 class="education-block__title">Education</h2>
+                        <hr class="horizontal-hr block-hr">
+                        <p class="education-block__text-years">2019-2023</p>
+                        <p class="education-block__text-univ">Belarussian State Unversity of Informatics and Radioelectronics</p>
+                    </div>
+                    <div class="languages-block" id="languages">
+                        <h2 class="languages-block__title">Languages</h2>
+                        <hr class="horizontal-hr block-hr">
+                        <ul class="languages-block__list">
+                            <li class="languages-block__item"><strong>Russian:</strong> native</li>
+                            <li class="languages-block__item"><strong>English:</strong> B1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-block">
+                <a href="https://github.com/pepparonin" class="footer-github-link">
+                    <img src="./img/github-icon.svg" alt="github" class="footer-github-icon">
+                </a>
+                <p class="footer-text">2026</p>
+                <a href="https://rs.school/courses/javascript-preschool-ru" class="footer-course-link">
+                    <img src="./img/logo-rs.svg" alt="RS School!" class="footer-school-logo"> 
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
